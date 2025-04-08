@@ -18,10 +18,11 @@
 
 # Editor
 * Install [VSCode](https://code.visualstudio.com/download)
-* [Windows Users Only] Install [WSL Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-* **IMPORTANT:** *Windows* users should launch a New WSL Window in VSCode before installing the following extensions.
-* Install [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* Install [Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+* Install the following extensions under the [extensions tab](./src/VSCode-Extension.png):
+  * [Windows Users Only] [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+  * **IMPORTANT:** *Windows* users should install the following extensions in a New WSL Window in VSCode.
+  * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  * [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 # Ollama
 * Installation [instructions](https://ollama.com/download/)
