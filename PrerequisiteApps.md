@@ -1,6 +1,7 @@
 # Editor
-* Install [PyCharm](https://www.jetbrains.com/pycharm/download/)
+* (Recommended) Install [PyCharm](https://www.jetbrains.com/pycharm/download/)
 * You can get a free license by using your UC Davis email.
+* All my tutorials will be in PyCharm.
 
 # Git / GitHub
 * Install [Git](https://git-scm.com/downloads)
@@ -16,3 +17,10 @@
      * Complete section *Adding a new SSH key to your account*.
 
 # [Windows Users Only] WSL2
+* [Installation instructions](https://learn.microsoft.com/en-us/windows/wsl/install)
+* Complete the *Get started*, *Set up your Linux username and password*, and *Update and upgrade packages* sections.
+* **IMPORTANT:** You will always use WSL2 for installing and running Python code instead of the default command prompt.
+
+# Ollama
+* Installation [instructions](https://ollama.com/download/)
+* **IMPORTANT:** *Windows* users should install the *Linux* version in their WSL2 terminal.
