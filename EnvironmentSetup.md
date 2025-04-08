@@ -9,10 +9,10 @@
 * Create a [GitHub](https://github.com/) account
 * (Optional) Connect GitHub with SSH
   1. [Setup SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-    * Reminder to select the correct platform (Mac or Windows or Linux).
-    * Complete sections *Generating a new SSH key* and *Adding your SSH key to the ssh-agent*.
+     * Reminder to select the correct platform (Mac or Windows or Linux).
+     * Complete sections *Generating a new SSH key* and *Adding your SSH key to the ssh-agent*.
   2. [Add SSH Key to Your Account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui)
-    * Reminder to select the correct platform (Mac or Windows or Linux).
-    * Complete section *Adding a new SSH key to your account*.
+     * Reminder to select the correct platform (Mac or Windows or Linux).
+     * Complete section *Adding a new SSH key to your account*.
 
 # [Windows Users Only] WSL2
