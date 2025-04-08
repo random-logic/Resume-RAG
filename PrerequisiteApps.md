@@ -1,8 +1,3 @@
-# Editor
-* (Recommended) Install [PyCharm](https://www.jetbrains.com/pycharm/download/)
-* You can get a free license by using your UC Davis email.
-* All my tutorials will be in PyCharm.
-
 # Git / GitHub
 * Install [Git](https://git-scm.com/downloads)
   * When installing, keep the default settings.
@@ -19,7 +14,14 @@
 # [Windows Users Only] WSL2
 * [Installation instructions](https://learn.microsoft.com/en-us/windows/wsl/install)
 * Complete the *Get started*, *Set up your Linux username and password*, and *Update and upgrade packages* sections.
-* **IMPORTANT:** You will always use WSL2 for installing and running Python code instead of the default command prompt.
+* **IMPORTANT:** You will always use WSL2 for installing Python related extensions and running Python code instead of the default command prompt.
+
+# Editor
+* Install [VSCode](https://code.visualstudio.com/download)
+* [Windows Users Only] Install [WSL Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+* **IMPORTANT:** *Windows* users should launch a New WSL Window in VSCode before installing the following extensions.
+* Install [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* Install [Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 # Ollama
 * Installation [instructions](https://ollama.com/download/)
