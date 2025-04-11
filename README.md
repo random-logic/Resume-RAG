@@ -15,3 +15,4 @@ Here are the [apps used](/PrerequisiteApps/README.md) for this project.
 5. Enter `Cmd+Shift+p` or `Ctrl+Shift+p`
 6. Type `Python: select interpreter`
 7. Select the Anaconda ResumeRAG env that we just created.
+8. Every time you launch VSCode with this project, your Conda environment will automatically be opened.
