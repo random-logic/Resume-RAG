@@ -33,15 +33,3 @@
     * **IMPORTANT:** *Windows* users should only proceed in a [New WSL Window](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl#getting-started).
     * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     * [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-
-# Setting up this project
-* **IMPORTANT:** *Windows* users should only proceed in a WSL terminal.
-1. Pull from GitHub
-    * [SSH] `git clone git@github.com:random-logic/Resume-RAG.git`
-    * [Default] `git clone https://github.com/random-logic/Resume-RAG`
-2. `cd Resume-RAG`
-3. `conda env create -f environment.yml --name ResumeRAG`
-4. `code .`
-5. Enter `Cmd+Shift+p` or `Ctrl+Shift+p`
-6. Type `Python: select interpreter`
-7. Select the Anaconda ResumeRAG env that we just created.
