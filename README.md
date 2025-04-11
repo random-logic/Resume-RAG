@@ -16,3 +16,9 @@ Here are the [apps used](/PrerequisiteApps/README.md) for this project.
 6. Type `Python: select interpreter`
 7. Select the Anaconda ResumeRAG env that we just created.
 8. Every time you launch VSCode with this project, your Conda environment will automatically be opened.
+
+# Coding guidelines
+1. All code should be in Jupyter Notebook (*.ipynb* files) files in the *src* folder.
+2. Modularize different code functions and parts in different cell.
+3. Explain what each code cell does in markdown cells above it.
+4. Each person should have their own Jupyter Notebook files to avoid merge conflicts.
