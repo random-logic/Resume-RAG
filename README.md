@@ -2,7 +2,7 @@
 This project is for DDSC S25. We will be using simple RAGs to query information from a resume and return relavent information to the LLM, which will answer the user query. If time, we will tackle on the challenge of using modular RAGs.
 
 # Prerequisites
-Here are the [apps used](/PrerequisiteApps/README.md) for this project.
+Here are the [apps used](/docs/prerequisite-apps.md) for this project.
 
 # Setting up this project
 * **IMPORTANT:** *Windows* users should only proceed in a WSL terminal.
