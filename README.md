@@ -27,3 +27,7 @@ Here are the [apps used](/docs/prerequisite-apps.md) for this project.
 * For good practice, only add dependencies when absolutely neccessary.
 * **IMPORTANT:** Run `conda install` instead of `pip install`.
 * After adding new dependencies, run `conda env export --from-history | grep -v '^prefix:' > environment.yml`.
+
+# Pulling updates
+* Run `git pull`
+* After pulling, run `conda env update --file environment.yml --prune`
