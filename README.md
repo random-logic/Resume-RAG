@@ -22,3 +22,8 @@ Here are the [apps used](/docs/prerequisite-apps.md) for this project.
 2. Modularize different code functions and parts in different cell.
 3. Explain what each code cell does in markdown cells above it.
 4. Each person should have their own Jupyter Notebook files to avoid merge conflicts.
+
+# Adding dependencies
+* For good practice, only add dependencies when absolutely neccessary.
+* **IMPORTANT:** Run `conda install` instead of `pip install`.
+* After adding new dependencies, run `conda env export --from-history | grep -v '^prefix:' > environment.yml`.
