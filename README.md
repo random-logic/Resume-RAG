@@ -20,18 +20,25 @@ We want a model that works on different resumes without costly retraining and re
 # Prerequisites
 Here are the [apps used](/docs/prerequisite-apps.md) for this project.
 
-# Setting up this project
+# Installation
+TODO: Add poetry file
+
 * **IMPORTANT:** *Windows* users should only proceed in a WSL terminal.
-1. Pull from GitHub
-    * [SSH] `git clone git@github.com:random-logic/Resume-RAG.git`
-    * [Default] `git clone https://github.com/random-logic/Resume-RAG`
-2. `cd Resume-RAG`
-3. `conda env create -f environment.yml --name ResumeRAG`
-4. `code .`
-5. Enter `Cmd+Shift+p` or `Ctrl+Shift+p`
-6. Type `Python: select interpreter`
-7. Select the Anaconda ResumeRAG env that we just created.
-8. Every time you launch VSCode with this project, your Conda environment will automatically be opened.
+1. Pull from GitHub.
+    * [SSH] `git clone git@github.com:random-logic/Resume-RAG.git`.
+    * [Default] `git clone https://github.com/random-logic/Resume-RAG`.
+2. `cd Resume-RAG`.
+3. `conda create -n ResumeRAG python=3.12`.
+4. `conda activate ResumeRAG`.
+5. `pip install poetry`.
+6. `poetry install`.
+
+# Configure Environment on VSCode
+1. Open this repo in your VSCode.
+2. Enter `Cmd+Shift+p` or `Ctrl+Shift+p`
+3. Type `Python: select interpreter`
+4. Select the Anaconda `ResumeRAG` environment.
+5. Every time you launch VSCode with this project, your Conda environment will automatically be opened.
 
 # Coding guidelines
 1. All code should be in Jupyter Notebook (*.ipynb* files) files in the *src* folder.
@@ -41,9 +48,7 @@ Here are the [apps used](/docs/prerequisite-apps.md) for this project.
 
 # Adding dependencies
 * For good practice, only add dependencies when absolutely neccessary.
-* **IMPORTANT:** Run `conda install` instead of `pip install`.
-* After adding new dependencies, run `conda env export --from-history | grep -v '^prefix:' > environment.yml`.
+* TODO
 
 # Pulling updates
-* Run `git pull`
-* After pulling, run `conda env update --file environment.yml --prune`
+Run `git pull`
