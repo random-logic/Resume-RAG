@@ -30,17 +30,17 @@ Here are the [apps used](/docs/prerequisite-apps.md) for this project.
 1. Pull from GitHub.
     * [SSH] `git clone git@github.com:random-logic/Resume-RAG.git`.
     * [Default] `git clone https://github.com/random-logic/Resume-RAG.git`.
-2. `cd BasicRAGTutorial`.
+2. `cd Resume-RAG`.
 3. `conda create -n ResumeRAG python=3.12`.
 4. `conda activate ResumeRAG`.
 5. `pip install poetry`.
 6. `poetry install`.
-7. Run `main.ipynb` in the `BasicRAGTutorial` conda env.
+7. Run `main.ipynb` in the `ResumeRAG` conda env.
 
 # Configure Environment on VSCode
 1. Enter `Cmd+Shift+p` on Mac or `Ctrl+Shift+p` on PC.
 2. Type `Python: select interpreter`.
-3. Select the Anaconda `BasicRAGTutorial` env.
+3. Select the Anaconda `ResumeRAG` env.
 
 # Contribution guidelines
 * All code should be in Jupyter Notebook (`.ipynb` files).
