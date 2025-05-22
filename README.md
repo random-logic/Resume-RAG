@@ -1,6 +1,22 @@
 # Resume-RAG
 This project is for DDSC S25. We will be using simple RAGs to query information from a resume and return relavent information to the LLM, which will answer the user query. If time, we will tackle on the challenge of using modular RAGs.
 
+# Why RAG
+We want a model that works on different resumes without costly retraining and requires minimal data. Here's a full overview of how it compares to fine-tuning LLMs, one of the most popular alternatives.
+
+| **Feature**               | **RAG (Retrieval-Augmented Generation)**                          | **Fine-tuned LLM**                                         |
+|---------------------------|--------------------------------------------------------------------|-------------------------------------------------------------|
+| **Definition**            | Combines external knowledge retrieval with a base LLM for responses | A base LLM that’s specifically fine-tuned on custom data     |
+| **Data Handling**         | Retrieves relevant documents at inference time                    | Ingests custom data during training                          |
+| **Cost**                  | Lower training cost; compute at inference                         | High training cost                         |
+| **Speed to Deploy**       | Faster, no need to retrain the model                              | Slower; retraining can take hours or days                   |
+| **Flexibility**           | Easy to update knowledge base                                     | Harder to update — requires retraining                      |
+| **Hallucination Risk**    | Reduced, as answers are grounded in retrieved data                | Higher risk if model overfits or lacks accurate training data |
+| **Real-Time Data Updates**| Supported — just update the knowledge base                        | Not supported unless re-finetuned                           |
+| **Best For**              | Dynamic knowledge needs, QA systems, document-based answers       | Custom task-specific behavior, nuanced domain language      |
+| **Inference Latency**     | Slightly higher (due to retrieval step)                           | Typically faster (no retrieval step)                        |
+| **Example Use Cases**     | Customer support, legal/finance QA, Resume QA                     | Sentiment analysis, code generation, summarization          |
+
 # Required Apps
 Here are the [apps used](/docs/prerequisite-apps.md) for this project.
 
