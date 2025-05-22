@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Lead Machine Learning Engineer",
+    "company": "Davis Data Science Club",
+    "start_date": "Jan 2025",
+    "end_date": "May 2025",
+    "employment_type": null,
+    "description": [
+      " Leading a team of 4, building a more accurate demand forecast hybrid model using time-series regression and deep learning.  Hosting 2 weekly team meetings to ensure all members are on track, receive assistance, and set expectations."
+    ],
+    "skills": []
+  },
+  {
+    "title": "Frontend Engineer Consultant (YC Backed Startup)",
+    "company": "Google Developer Student Club",
+    "start_date": "Jan 2025",
+    "end_date": "May 2025",
+    "employment_type": "Contract",
+    "description": [
+      " Collaborating with YC Backed stakeholders to add new functionality, and requesting clarification on complex ideas and priorities.  Collaborating with a cross-functional team of 7 to distribute work and merge 5 pull requests per month.  Coding frontend using NextJS, React, TypeScript, and Tailwind CSS to integrate with existing API.  Accurately translating a Figma design to a responsive website, maintaining palettes, fonts, spacing, and appearance.  Examining TanStack Table documentation and coding examples to build custom solutions on top of it."
+    ],
+    "skills": []
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "Google Developer Student Club",
+    "start_date": "Oct 2024",
+    "end_date": "Dec 2024",
+    "employment_type": null,
+    "description": [
+      " Google sponsored club, picked as one of two software developers out of 200 applicants for product cohort.  Attended hands-on workshops to improve communication with cross-functional teams and YC backed stakeholders."
+    ],
+    "skills": []
+  },
+  {
+    "title": "Software Engineer Internship",
+    "company": "Technical Consulting & Research, Inc.",
+    "start_date": "Jan 2025",
+    "end_date": "Apr 2025",
+    "employment_type": "Part-time",
+    "description": [
+      " Collaborating with stakeholders to secure backend using Auth0 and create SQL database schemas using SQLAlchemy.  Creating authenticated API using user role management and scopes. Drawing access control matrices to present ideas."
+    ],
+    "skills": []
+  },
+  {
+    "title": "CS Tutor",
+    "company": "Part-time",
+    "start_date": "Oct 2024",
+    "end_date": "Dec 2024",
+    "employment_type": "Part-time",
+    "description": [
+      "University sponsored job, tutored CS at AATC."
+    ],
+    "skills": []
+  },
+  {
+    "title": "Frontend and Backend Developer",
+    "company": "University of California Davis, California, United States · Remote",
+    "start_date": "Jun 2023",
+    "end_date": "Sep 2023",
+    "employment_type": null,
+    "description": [
+      " Developed a learning website with interactive, randomized, and auto-graded quiz questions using PrairieLearn for professor.  Examined documentation and source code of various libraries for custom grading of boolean equations and circuit diagrams."
+    ],
+    "skills": [
+      "Python (Programming Language)",
+      "Communication",
+      "Attention to Detail",
+      "Problem Solving"
+    ]
+  },
+  {
+    "title": "Business Owner",
+    "company": "Sole Proprietor",
+    "start_date": "Jan 2021",
+    "end_date": "Jun 2022",
+    "employment_type": "Self-employed",
+    "description": [
+      " Generated $600k in revenue and around $100k in net profits from a home-based business.  Sourced and purchased computer inventory through distributors on credit cards, sold it, and managed cash flow.  Researched, built, tested, optimized, and troubleshooted mining rigs and computer parts for end consumers.  Researched, filled out, and managed government documents including selling permits, sales, and income taxes."
+    ],
+    "skills": [
+      "Communication",
+      "Customer Service",
+      "Problem Solving"
+    ]
+  }
+]

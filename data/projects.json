@@ -1,0 +1,109 @@
+[
+    {
+        "title": "Personal Portfolio Website",
+        "start_date": "Jan 2025",
+        "end_date": "Present",
+        "association": "Associated with University of California, Davis",
+        "description": "N/A",
+        "skills": [
+            "React.js",
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS"
+        ]
+    },
+    {
+        "title": "GitHub Issue Ticket Bot",
+        "start_date": "Feb 2025",
+        "end_date": "Feb 2025",
+        "association": "Associated with University of California, Davis",
+        "description": "Created a bot that helps match users' preferences to Issue Tickets they want using LLMs",
+        "skills": "N/A"
+    },
+    {
+        "title": "Movie Recommendation System",
+        "start_date": "Oct 2024",
+        "end_date": "Dec 2024",
+        "association": "Associated with University of California, Davis",
+        "description": "N/A",
+        "skills": [
+            "PyTorch",
+            "Variational Autoencoders (VAEs)",
+            "Python (Programming Language)"
+        ]
+    },
+    {
+        "title": "Dog Breed Image Classification",
+        "start_date": "Mar 2024",
+        "end_date": "Mar 2024",
+        "association": "Associated with University of California, Davis",
+        "description": ">= 90% Model Accuracy",
+        "skills": [
+            "Keras",
+            "Convolutional Neural Networks (CNN)",
+            "SkLearn",
+            "Pandas",
+            "Python (Programming Language)"
+        ]
+    },
+    {
+        "title": "Medical Insurance ANOVA Analysis",
+        "start_date": "Mar 2024",
+        "end_date": "Mar 2024",
+        "association": "Associated with University of California, Davis",
+        "description": "N/A",
+        "skills": "N/A"
+    },
+    {
+        "title": "Student Networking IOS App",
+        "start_date": "Mar 2024",
+        "end_date": "Mar 2024",
+        "association": "Associated with University of California, Davis",
+        "description": "N/A",
+        "skills": [
+            "Swift (Programming Language)",
+            "SwiftUI",
+            "Firebase",
+            "Model-view-viewmodel (MVVM)"
+        ]
+    },
+    {
+        "title": "Mars Website",
+        "start_date": "Oct 2023",
+        "end_date": "Oct 2023",
+        "association": "N/A",
+        "description": "N/A",
+        "skills": [
+            "Firebase",
+            "Next.js",
+            "React.js",
+            "Tailwind CSS",
+            "TypeScript",
+            "RESTful API",
+            "Zod"
+        ]
+    },
+    {
+        "title": "Stroke Prediction",
+        "start_date": "Oct 2023",
+        "end_date": "Oct 2023",
+        "association": "Associated with University of California, Davis",
+        "description": "Created model for stroke prediction with 95% success rate using Seaborn, Pandas, and Sci-kit Learn",
+        "skills": "N/A"
+    },
+    {
+        "title": "Allergen App",
+        "start_date": "Aug 2023",
+        "end_date": "Sep 2023",
+        "association": "N/A",
+        "description": "N/A",
+        "skills": [
+            "Google ML-Kit",
+            "Flutter",
+            "Dart",
+            "Material UI",
+            "Android Studio",
+            "Figma"
+        ]
+    }
+]
