@@ -1,0 +1,27 @@
+[project]
+name = "resume-rag"
+version = "0.1.0"
+description = ""
+authors = [
+  {name = "Andrew"}
+]
+readme = "README.md"
+requires-python = "~3.12"
+dependencies = [
+    "langchain-text-splitters (>=0.3.8,<0.4.0)",
+    "langchain-community (>=0.3.22,<0.4.0)",
+    "langgraph (>=0.3.33,<0.4.0)",
+    "langchain-ollama (>=0.3.2,<0.4.0)",
+    "langchain-core (>=0.3.55,<0.4.0)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "notebook (>=7.4.1,<8.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
