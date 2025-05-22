@@ -31,8 +31,8 @@ Here are the [apps used](/docs/prerequisite-apps.md) for this project.
     * [SSH] `git clone git@github.com:random-logic/BasicRAGTutorial.git`.
     * [Default] `git clone https://github.com/random-logic/BasicRAGTutorial.git`.
 2. `cd BasicRAGTutorial`.
-3. `conda create -n "BasicRAGTutorial" python=3.12`.
-4. `conda activate BasicRAGTutorial`.
+3. `conda create -n "ResumeRAG" python=3.12`.
+4. `conda activate ResumeRAG`.
 5. `pip install poetry`.
 6. `poetry install`.
 7. Run `main.ipynb` in the `BasicRAGTutorial` conda env.
