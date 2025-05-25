@@ -16,7 +16,8 @@ dependencies = [
     "bs4 (>=0.0.2,<0.0.3)",
     "python-dotenv (>=1.1.0,<2.0.0)",
     "notebook (>=7.4.1,<8.0.0)",
-    "ipykernel (>=6.29.5,<7.0.0)"
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "jq (>=1.8.0,<2.0.0)"
 ]
 
 [build-system]
